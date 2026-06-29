@@ -1,0 +1,2492 @@
+{
+  "Food Grain Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 35],
+        "humidity": [40, 75],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 38],
+        "humidity": [30, 70],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 35],
+        "humidity": [40, 80],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 75],
+        "wind": [0, 12],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [25, 38],
+        "humidity": [30, 70],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 60],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 34],
+        "humidity": [50, 85],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Bajra (Pearl Millet)": {},
+
+      "Barley": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Barnyard Millet": {},
+
+      "Buckwheat": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Foxtail Millet": {},
+
+      "Jowar (Sorghum)": {},
+
+      "Kodo Millet": {},
+
+      "Little Millet": {},
+
+      "Maize": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 65]
+          },
+
+          "drying_grains": {
+            "humidity": [20, 50]
+          }
+        }
+      },
+
+      "Ragi (Finger Millet)": {},
+
+      "Rice (Paddy)": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 90],
+            "rain": "moderate_ok"
+          },
+
+          "transplantation": {
+            "humidity": [60, 95],
+            "rain": "light_ok"
+          },
+
+          "pesticide_application": {
+            "wind": [0, 10]
+          },
+
+          "weeding": {
+            "humidity": [60, 90]
+          }
+        }
+      },
+
+      "Wheat": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "fertilizer_application": {
+            "humidity": [30, 70]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 45]
+          }
+        }
+      }
+    }
+  },
+  "Pulse Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [40, 75],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [30, 70],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [40, 75],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [24, 38],
+        "humidity": [30, 65],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Arhar (Pigeon Pea / Toor Dal)": {
+        "override": {
+
+          "sowing": {
+            "temperature": [22, 36]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Bengal Gram (Chana)": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          },
+
+          "drying_grains": {
+            "humidity": [20, 45]
+          }
+        }
+      },
+
+      "Black Gram (Urad)": {},
+
+      "Cowpea": {
+        "override": {
+
+          "sowing": {
+            "temperature": [22, 36]
+          }
+        }
+      },
+
+      "Green Gram (Moong)": {},
+
+      "Horse Gram": {
+        "override": {
+
+          "harvesting": {
+            "temperature": [25, 40]
+          },
+
+          "drying_grains": {
+            "temperature": [30, 42]
+          }
+        }
+      },
+
+      "Lentil (Masoor)": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Pea": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 24]
+          },
+
+          "fertilizer_application": {
+            "humidity": [30, 70]
+          },
+
+          "harvesting": {
+            "temperature": [18, 30],
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Rajma (Kidney Beans)": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "fertilizer_application": {
+            "humidity": [30, 70]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 45]
+          }
+        }
+      }
+    }
+  },
+ "Oilseed Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 35],
+        "humidity": [40, 75],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 38],
+        "humidity": [30, 70],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 35],
+        "humidity": [40, 75],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [24, 38],
+        "humidity": [25, 65],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 34],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Castor": {
+        "override": {
+
+          "sowing": {
+            "temperature": [22, 38]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Cottonseed": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid",
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Groundnut": {
+        "override": {
+
+          "fertilizer_application": {
+            "rain": "avoid"
+          },
+
+          "harvesting": {
+            "humidity": [20, 45],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Linseed": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          }
+        }
+      },
+
+      "Mustard": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Niger Seed": {},
+
+      "Rapeseed": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 24]
+          }
+        }
+      },
+
+      "Safflower": {
+        "override": {
+
+          "harvesting": {
+            "temperature": [26, 40]
+          }
+        }
+      },
+
+      "Sesame": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid",
+            "humidity": [20, 50]
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Soybean": {
+        "override": {
+
+          "fertilizer_application": {
+            "humidity": [40, 70]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Sunflower": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      }
+    }
+  },
+  "Commercial / Cash Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [22, 36],
+        "humidity": [40, 80],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [22, 38],
+        "humidity": [35, 75],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 35],
+        "humidity": [40, 75],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [24, 38],
+        "humidity": [25, 65],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 36],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [22, 34],
+        "humidity": [50, 85],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Cotton": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Guar": {
+        "override": {
+
+          "sowing": {
+            "temperature": [24, 38]
+          },
+
+          "harvesting": {
+            "temperature": [26, 40]
+          }
+        }
+      },
+
+      "Hops": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28]
+          },
+
+          "pesticide_application": {
+            "humidity": [40, 65]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Jute": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 90],
+            "rain": "moderate_ok"
+          },
+
+          "weeding": {
+            "humidity": [60, 90]
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Potato": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "fertilizer_application": {
+            "humidity": [40, 70]
+          },
+
+          "harvesting": {
+            "rain": "avoid",
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Silk Mulberry": {
+        "override": {
+
+          "fertilizer_application": {
+            "humidity": [50, 85]
+          },
+
+          "harvesting": {
+            "humidity": [40, 75]
+          }
+        }
+      },
+
+      "Sugarcane": {
+        "override": {
+
+          "sowing": {
+            "humidity": [50, 85],
+            "rain": "moderate_ok"
+          },
+
+          "fertilizer_application": {
+            "rain": "light_ok"
+          },
+
+          "weeding": {
+            "humidity": [50, 90]
+          }
+        }
+      },
+
+      "Tobacco": {
+        "override": {
+
+          "fertilizer_application": {
+            "humidity": [35, 65]
+          },
+
+          "harvesting": {
+            "humidity": [20, 50],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      }
+    }
+  },
+  "Plantation Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [50, 90],
+        "wind": [0, 20],
+        "rain": "moderate_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [45, 85],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [50, 85],
+        "wind": [0, 15],
+        "rain": "light_ok"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [45, 75],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [40, 75],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [26, 38],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [50, 90],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 34],
+        "humidity": [55, 95],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Arecanut": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 15]
+          }
+        }
+      },
+
+      "Cashew": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 45]
+          }
+        }
+      },
+
+      "Cocoa": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "weeding": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Coconut": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 15]
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Coffee": {
+        "override": {
+
+          "pesticide_application": {
+            "humidity": [40, 70]
+          },
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 45]
+          }
+        }
+      },
+
+      "Date Palm": {
+        "override": {
+
+          "sowing": {
+            "temperature": [28, 42],
+            "humidity": [20, 60]
+          },
+
+          "harvesting": {
+            "temperature": [30, 45]
+          }
+        }
+      },
+
+      "Oil Palm": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "fertilizer_application": {
+            "rain": "light_ok"
+          }
+        }
+      },
+
+      "Rubber": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid",
+            "humidity": [30, 70]
+          },
+
+          "pesticide_application": {
+            "humidity": [40, 70]
+          }
+        }
+      },
+
+      "Tea": {
+        "override": {
+
+          "sowing": {
+            "temperature": [18, 30]
+          },
+
+          "fertilizer_application": {
+            "humidity": [55, 90]
+          },
+
+          "harvesting": {
+            "humidity": [40, 75]
+          }
+        }
+      }
+    }
+  },
+"Spice Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [50, 85],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [30, 70],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 45],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [45, 85],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [55, 90],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Black Pepper": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Cardamom": {
+        "override": {
+
+          "sowing": {
+            "temperature": [18, 28],
+            "humidity": [60, 95]
+          },
+
+          "harvesting": {
+            "humidity": [30, 65]
+          }
+        }
+      },
+
+      "Chilli": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          },
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Cinnamon": {},
+
+      "Clove": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Coriander": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Cumin": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28]
+          },
+
+          "harvesting": {
+            "humidity": [20, 45],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 35]
+          }
+        }
+      },
+
+      "Fenugreek": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Garlic": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 50]
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Ginger": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 90],
+            "rain": "moderate_ok"
+          },
+
+          "weeding": {
+            "humidity": [60, 90]
+          }
+        }
+      },
+
+      "Large Cardamom": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 26],
+            "humidity": [65, 95]
+          }
+        }
+      },
+
+      "Naga Chilli (Bhut Jolokia)": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          }
+        }
+      },
+
+      "Nutmeg": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Turmeric": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 90],
+            "rain": "moderate_ok"
+          },
+
+          "fertilizer_application": {
+            "rain": "light_ok"
+          }
+        }
+      },
+
+      "Vanilla": {
+        "override": {
+
+          "sowing": {
+            "humidity": [70, 95]
+          },
+
+          "transplantation": {
+            "humidity": [70, 95]
+          }
+        }
+      }
+    }
+  },
+  "Fruit Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [50, 85],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [30, 70],
+        "wind": [0, 18],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [26, 38],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [45, 85],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [55, 90],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Acid Lime": {},
+
+      "Amla": {},
+
+      "Apple": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          },
+
+          "transplantation": {
+            "temperature": [10, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Apricot": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          }
+        }
+      },
+
+      "Banana": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 10],
+            "rain": "avoid"
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Ber (Indian Jujube)": {},
+
+      "Cherry": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 22]
+          },
+
+          "harvesting": {
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Custard Apple": {},
+
+      "Dragon Fruit": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Grapes": {
+        "override": {
+
+          "pesticide_application": {
+            "humidity": [35, 65]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Guava": {},
+
+      "Jackfruit": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 12]
+          }
+        }
+      },
+
+      "Kiwi": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          },
+
+          "transplantation": {
+            "temperature": [10, 24]
+          }
+        }
+      },
+
+      "Kinnow": {},
+
+      "Lemon": {},
+
+      "Litchi": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Mango": {
+        "override": {
+
+          "flowering": {
+            "rain": "avoid"
+          },
+
+          "harvesting": {
+            "rain": "avoid",
+            "wind": [0, 15]
+          }
+        }
+      },
+
+      "Muskmelon": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Orange": {},
+
+      "Papaya": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 12]
+          }
+        }
+      },
+
+      "Passion Fruit": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Peach": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          }
+        }
+      },
+
+      "Pear": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          }
+        }
+      },
+
+      "Pineapple": {
+        "override": {
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Plum": {
+        "override": {
+
+          "sowing": {
+            "temperature": [10, 24]
+          }
+        }
+      },
+
+      "Pomegranate": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 50],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Rambutan": {
+        "override": {
+
+          "sowing": {
+            "humidity": [65, 95]
+          }
+        }
+      },
+
+      "Sapota (Chikoo)": {},
+
+      "Strawberry": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 50]
+          }
+        }
+      },
+
+      "Sweet Orange": {},
+
+      "Watermelon": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 50],
+            "rain": "avoid"
+          }
+        }
+      }
+    }
+  },
+  "Vegetable Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [45, 85],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [40, 75],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [30, 70],
+        "wind": [0, 18],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [26, 38],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [45, 85],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [55, 90],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Amaranthus": {},
+
+      "Beans": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Beetroot": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Bitter Gourd": {},
+
+      "Bottle Gourd": {},
+
+      "Brinjal (Eggplant)": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          }
+        }
+      },
+
+      "Cabbage": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "transplantation": {
+            "temperature": [12, 24]
+          }
+        }
+      },
+
+      "Capsicum": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Carrot": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Cauliflower": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "transplantation": {
+            "temperature": [12, 24]
+          }
+        }
+      },
+
+      "Cucumber": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Drumstick": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 12]
+          }
+        }
+      },
+
+      "Green Chilli": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          },
+
+          "harvesting": {
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Okra": {},
+
+      "Onion": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 50],
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Peas": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Pumpkin": {},
+
+      "Radish": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          }
+        }
+      },
+
+      "Ridge Gourd": {},
+
+      "Snake Gourd": {},
+
+      "Spinach": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Tapioca (Cassava)": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Tomato": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 8]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          }
+        }
+      }
+    }
+  }, 
+  "Flower Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [18, 30],
+        "humidity": [50, 85],
+        "wind": [0, 18],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [18, 34],
+        "humidity": [40, 80],
+        "wind": [0, 22],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [18, 30],
+        "humidity": [45, 80],
+        "wind": [0, 12],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 30],
+        "humidity": [40, 70],
+        "wind": [0, 8],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [20, 32],
+        "humidity": [30, 65],
+        "wind": [0, 12],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [24, 36],
+        "humidity": [20, 45],
+        "wind": [0, 12],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [18, 32],
+        "humidity": [45, 85],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [18, 28],
+        "humidity": [55, 90],
+        "wind": [0, 12],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Anthurium": {
+        "override": {
+
+          "sowing": {
+            "humidity": [70, 95]
+          },
+
+          "transplantation": {
+            "humidity": [70, 95]
+          }
+        }
+      },
+
+      "Carnation": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55]
+          }
+        }
+      },
+
+      "Chrysanthemum": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 26]
+          }
+        }
+      },
+
+      "Crossandra": {},
+
+      "Gladiolus": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "harvesting": {
+            "wind": [0, 10]
+          }
+        }
+      },
+
+      "Jasmine": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Lilium": {
+        "override": {
+
+          "sowing": {
+            "temperature": [12, 24]
+          },
+
+          "transplantation": {
+            "temperature": [12, 24]
+          }
+        }
+      },
+
+      "Lotus": {
+        "override": {
+
+          "sowing": {
+            "humidity": [70, 95],
+            "rain": "moderate_ok"
+          },
+
+          "transplantation": {
+            "humidity": [70, 95]
+          }
+        }
+      },
+
+      "Marigold": {},
+
+      "Orchid": {
+        "override": {
+
+          "sowing": {
+            "humidity": [70, 95]
+          },
+
+          "transplantation": {
+            "humidity": [70, 95]
+          },
+
+          "harvesting": {
+            "wind": [0, 8]
+          }
+        }
+      },
+
+      "Rose": {
+        "override": {
+
+          "pesticide_application": {
+            "wind": [0, 6]
+          },
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Tuberose": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 10]
+          }
+        }
+      }
+    }
+  },
+  "Medicinal & Aromatic Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [45, 80],
+        "wind": [0, 18],
+        "rain": "light_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [40, 75],
+        "wind": [0, 22],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [40, 75],
+        "wind": [0, 12],
+        "rain": "avoid"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 70],
+        "wind": [0, 8],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [25, 65],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [26, 38],
+        "humidity": [20, 45],
+        "wind": [0, 12],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [45, 80],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [50, 90],
+        "wind": [0, 12],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Aloe Vera": {
+        "override": {
+
+          "sowing": {
+            "temperature": [24, 40],
+            "humidity": [20, 60]
+          },
+
+          "harvesting": {
+            "humidity": [20, 50]
+          }
+        }
+      },
+
+      "Aromatic Herbs": {},
+
+      "Ashwagandha": {
+        "override": {
+
+          "sowing": {
+            "temperature": [22, 36],
+            "humidity": [25, 60]
+          },
+
+          "harvesting": {
+            "humidity": [20, 45]
+          },
+
+          "drying_grains": {
+            "humidity": [20, 35]
+          }
+        }
+      },
+
+      "Ayurvedic Plants": {},
+
+      "Citronella": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Lavender": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 28],
+            "humidity": [30, 65]
+          },
+
+          "harvesting": {
+            "humidity": [20, 50]
+          }
+        }
+      },
+
+      "Lemongrass": {
+        "override": {
+
+          "sowing": {
+            "humidity": [55, 90]
+          },
+
+          "fertilizer_application": {
+            "rain": "light_ok"
+          }
+        }
+      },
+
+      "Medicinal Forest Herbs": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      },
+
+      "Mentha (Mint)": {
+        "override": {
+
+          "sowing": {
+            "humidity": [55, 90]
+          },
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Tulsi": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      }
+    }
+  },
+  "Fodder Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [22, 36],
+        "humidity": [50, 85],
+        "wind": [0, 20],
+        "rain": "moderate_ok"
+      },
+
+      "tilling": {
+        "temperature": [22, 38],
+        "humidity": [40, 80],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 35],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "light_ok"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 75],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [24, 38],
+        "humidity": [35, 70],
+        "wind": [0, 20],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [28, 40],
+        "humidity": [20, 55],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [22, 36],
+        "humidity": [50, 85],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [22, 34],
+        "humidity": [55, 90],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Bajra Fodder": {},
+
+      "Berseem": {
+        "override": {
+
+          "sowing": {
+            "temperature": [15, 25]
+          },
+
+          "fertilizer_application": {
+            "temperature": [18, 30]
+          },
+
+          "harvesting": {
+            "humidity": [25, 60]
+          }
+        }
+      },
+
+      "Fodder Maize": {
+        "override": {
+
+          "sowing": {
+            "rain": "light_ok"
+          },
+
+          "fertilizer_application": {
+            "rain": "avoid_waterlogging"
+          },
+
+          "harvesting": {
+            "humidity": [25, 60]
+          }
+        }
+      },
+
+      "Lucerne": {
+        "override": {
+
+          "sowing": {
+            "temperature": [18, 28]
+          },
+
+          "harvesting": {
+            "humidity": [25, 60]
+          }
+        }
+      },
+
+      "Napier Grass": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 90]
+          },
+
+          "fertilizer_application": {
+            "rain": "light_ok"
+          },
+
+          "weeding": {
+            "humidity": [60, 90]
+          }
+        }
+      },
+
+      "Sorghum Fodder": {}
+    }
+  },
+  "Forest & Tribal Produce": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 34],
+        "humidity": [50, 90],
+        "wind": [0, 20],
+        "rain": "moderate_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 36],
+        "humidity": [45, 85],
+        "wind": [0, 25],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 34],
+        "humidity": [45, 80],
+        "wind": [0, 15],
+        "rain": "light_ok"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 32],
+        "humidity": [40, 75],
+        "wind": [0, 10],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [22, 36],
+        "humidity": [30, 75],
+        "wind": [0, 18],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [26, 38],
+        "humidity": [20, 50],
+        "wind": [0, 15],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 35],
+        "humidity": [50, 90],
+        "wind": [0, 25],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 32],
+        "humidity": [60, 95],
+        "wind": [0, 15],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Bamboo": {
+        "override": {
+
+          "harvesting": {
+            "wind": [0, 15]
+          }
+        }
+      },
+
+      "Cane": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [25, 65]
+          }
+        }
+      },
+
+      "Lac": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid",
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Mahua": {
+        "override": {
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Sal Leaves": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 60]
+          }
+        }
+      },
+
+      "Tamarind": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 55],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Tendu Leaves": {
+        "override": {
+
+          "harvesting": {
+            "humidity": [20, 50],
+            "rain": "avoid"
+          }
+        }
+      },
+
+      "Wild Herbs": {
+        "override": {
+
+          "sowing": {
+            "humidity": [60, 95]
+          },
+
+          "transplantation": {
+            "humidity": [60, 95]
+          }
+        }
+      }
+    }
+  },
+  "Beverage Crops": {
+
+    "default_rules": {
+
+      "sowing": {
+        "temperature": [20, 32],
+        "humidity": [55, 90],
+        "wind": [0, 18],
+        "rain": "moderate_ok"
+      },
+
+      "tilling": {
+        "temperature": [20, 34],
+        "humidity": [50, 85],
+        "wind": [0, 22],
+        "rain": "avoid_heavy"
+      },
+
+      "fertilizer_application": {
+        "temperature": [20, 32],
+        "humidity": [50, 85],
+        "wind": [0, 12],
+        "rain": "light_ok"
+      },
+
+      "pesticide_application": {
+        "temperature": [18, 30],
+        "humidity": [40, 70],
+        "wind": [0, 8],
+        "rain": "avoid"
+      },
+
+      "harvesting": {
+        "temperature": [20, 34],
+        "humidity": [30, 70],
+        "wind": [0, 15],
+        "rain": "avoid"
+      },
+
+      "drying_grains": {
+        "temperature": [24, 36],
+        "humidity": [20, 45],
+        "wind": [0, 12],
+        "rain": "no_rain"
+      },
+
+      "weeding": {
+        "temperature": [20, 34],
+        "humidity": [55, 90],
+        "wind": [0, 20],
+        "rain": "light_ok"
+      },
+
+      "transplantation": {
+        "temperature": [20, 30],
+        "humidity": [60, 95],
+        "wind": [0, 12],
+        "rain": "moderate_ok"
+      }
+    },
+
+    "crops": {
+
+      "Tea": {
+        "override": {
+
+          "sowing": {
+            "temperature": [18, 28]
+          },
+
+          "fertilizer_application": {
+            "humidity": [60, 90]
+          },
+
+          "harvesting": {
+            "humidity": [35, 70]
+          }
+        }
+      },
+
+      "Coffee": {
+        "override": {
+
+          "pesticide_application": {
+            "humidity": [40, 65]
+          },
+
+          "harvesting": {
+            "rain": "avoid"
+          },
+
+          "drying_grains": {
+            "humidity": [20, 40]
+          }
+        }
+      },
+
+      "Cocoa": {
+        "override": {
+
+          "sowing": {
+            "humidity": [65, 95]
+          },
+
+          "transplantation": {
+            "humidity": [65, 95]
+          }
+        }
+      }
+    }
+  }
+}
